@@ -1,0 +1,85 @@
+body {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #bfbfbf;
+}
+
+.presentational-container {
+  padding: 20px;
+  background-color: #fff;
+}
+
+table {
+  background: none;
+  margin: 0;
+  padding: 5px 5px 0;
+}
+
+td.headshot-cell img {
+  vertical-align: middle;
+  width: 120px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+td.description-cell {
+  padding: 0 0 0 12px;
+}
+
+td.description-cell > table {
+  background: none;
+  border: 0px;
+  margin: 0;
+  padding: 0;
+}
+
+td.full-name {
+  font-weight: bold;
+  color: #171a4b;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+td.full-name span {
+  font-weight: normal;
+  color: #505050;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+td.title {
+  font-weight: bolder;
+  color: #000000;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+td.title span {
+  font-weight: normal;
+  color: #000000;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+td.social-icons {
+  padding-top: 5px;
+}
+
+td.social-icons ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 25px;
+}
+
+td.social-icons li {
+  display: inline-block;
+}
+
+td.social-icons img {
+  width: 25px;
+  height: 25px;
+}
